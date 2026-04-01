@@ -8443,12 +8443,12 @@
 	(symbol
 		(lib_id "Regulator_Switching:TPS54202DDC")
 		(at 105.41 40.64 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "380bb835-c16c-4f38-b98d-41fd2f5af963")
 		(property "Reference" "U1"
 			(at 105.41 30.48 0)
@@ -8467,7 +8467,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 106.68 49.53 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,7 +8477,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54202.pdf"
-			(at 97.79 31.75 0)
+			(at 113.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +9744,7 @@
 			(uuid "d85c8851-61e1-432b-b2b4-49807d208829")
 		)
 		(instances
-			(project ""
+			(project "dashboard"
 				(path "/e03820ab-31df-4dd3-bbbf-004e9f7c6b92"
 					(reference "#PWR024")
 					(unit 1)
