@@ -62,5 +62,5 @@ jobs:
           name: drc.rpt
           path: ${{ github.workspace }}/drc.rpt
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v7
 
